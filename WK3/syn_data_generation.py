@@ -8,3 +8,11 @@ xtrain = X[0:1001,:]
 xtest = X[1001:1051,:]
 ytest = Y[1001:1051]
 np.savetxt("xtrain.csv",xtrain,delimiter=",",newline='\n')
+np.savetxt("ytrain.csv",ytrain,delimiter=",",newline="\n")
+np.savetxt("xtest.csv",xtest,delimiter=",",newline="\n")
+np.savetxt("ytest.csv",ytest,delimiter=",",newline="\n")
+
+
+
+
+
