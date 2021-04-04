@@ -23,7 +23,9 @@ for i in range(100):
     if cluster == 2:
      X[i,:] = np.random.multivariate_normal(mean3,cov)
 
-print(X)
+np.savetxt("X.csv",X,delimiter=",",newline='\n')
+np.savetxt("y.csv",y,delimiter=",",newline='\n')
+
 
 
 
